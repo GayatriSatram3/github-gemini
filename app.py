@@ -72,8 +72,7 @@ response = gemini_client.models.generate_content(
 )
 
 review = response.text
-
-print("\n========== AI REVIEW ==========\n")
+print("\n========== 🤖 GEMINI AI CODE REVIEW ==========\n")
 print(review)
 
 # GitHub Comment API
